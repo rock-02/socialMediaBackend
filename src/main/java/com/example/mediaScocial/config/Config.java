@@ -46,7 +46,7 @@ public class Config {
 
                 cfg.setAllowedOrigins(Arrays.asList(
                         "http://localhost:3000/",
-                        "https://chatting-frontend-rock-02s-projects.vercel.app/"));
+                        "https://chatting-frontend-two.vercel.app/"));
                 cfg.setAllowedMethods(Collections.singletonList("*"));
 
                 cfg.setAllowedHeaders(Collections.singletonList("*"));
