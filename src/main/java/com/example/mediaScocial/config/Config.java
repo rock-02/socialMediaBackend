@@ -45,7 +45,8 @@ public class Config {
                 CorsConfiguration cfg = new CorsConfiguration();
 
                 cfg.setAllowedOrigins(Arrays.asList(
-                        "http://localhost:3000/"));
+                        "http://localhost:3000/",
+                        "https://chatting-frontend-rock-02s-projects.vercel.app/"));
                 cfg.setAllowedMethods(Collections.singletonList("*"));
 
                 cfg.setAllowedHeaders(Collections.singletonList("*"));
